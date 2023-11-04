@@ -1,0 +1,3235 @@
+{
+  "decohub": {
+    "__resolveType": "deco-sites/protot/apps/decohub.ts"
+  },
+  "admin-app": {
+    "resolvables": {
+      "__resolveType": "deco-sites/admin/loaders/state.ts"
+    },
+    "__resolveType": "decohub/apps/admin.ts"
+  },
+  "Fun": {
+    "fonts": {
+      "fontFamily": "'Comic Sans MS'"
+    },
+    "mainColors": {
+      "primary": "#ff7598",
+      "base-100": "#ffee00",
+      "tertiary": "#c07ecc",
+      "secondary": "#75d1f0"
+    },
+    "buttonStyle": {
+      "--border-btn": "1px",
+      "--rounded-btn": "0.8rem",
+      "--btn-text-case": "lowercase",
+      "--btn-focus-scale": "0.95"
+    },
+    "__resolveType": "deco-sites/protot/sections/Theme/Theme.tsx",
+    "complementaryColors": {
+      "primary": {
+        "primary-content": "#000000"
+      },
+      "tertiary": {
+        "tertiary-content": "#000000"
+      },
+      "secondary": {
+        "secondary-content": "#000000"
+      }
+    }
+  },
+  "Site": {
+    "seo": {
+      "type": "website",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2177/a5d890ba-e5b8-471e-8b77-7412c1d4fa56",
+      "title": "Storefront",
+      "jsonLDs": [],
+      "canonical": "https://fashion.deco.site",
+      "noIndexing": false,
+      "description": "Improve your page performance with deco.cx",
+      "titleTemplate": "%s | deco.cx",
+      "descriptionTemplate": "%s | Deco.cx"
+    },
+    "theme": {
+      "__resolveType": "Fashion theme"
+    },
+    "global": [],
+    "routes": [
+      {
+        "__resolveType": "vtex/loaders/proxy.ts",
+        "includeSiteMap": [],
+        "extraPathsToProxy": []
+      },
+      {
+        "__resolveType": "website/loaders/pages.ts"
+      }
+    ],
+    "platform": "vtex",
+    "__resolveType": "deco-sites/protot/apps/site.ts"
+  },
+  "vtex": {
+    "appKey": "vtexappkey-bravtexfashionstore-VCSBOC",
+    "account": "bravtexfashionstore",
+    "appToken": "FWXIWXGDEVTPKERCJIVFXDCEEFUXCBUOBKWZYVYHCUYXJANQUUVRTZUKIWIESDXJXNAMRQBIZFYMSCIKHHWGMEBRZDBEHQLXOXNDCIFAASMVKFOOSTXRPXCCMVQDDEGB",
+    "platform": "vtex",
+    "publicUrl": "fashion.bravtexstores.com.br",
+    "__resolveType": "decohub/apps/vtex.ts"
+  },
+  "Luxury": {
+    "fonts": {
+      "fontFamily": "'Georgia'"
+    },
+    "mainColors": {
+      "primary": "#000000",
+      "base-100": "#000000",
+      "tertiary": "#553ef5",
+      "secondary": "#152747"
+    },
+    "buttonStyle": {
+      "--border-btn": "1px",
+      "--rounded-btn": "0.2rem",
+      "--btn-text-case": "normal-case",
+      "--btn-focus-scale": "0.95"
+    },
+    "__resolveType": "deco-sites/protot/sections/Theme/Theme.tsx",
+    "complementaryColors": {
+      "base": {
+        "base-200": "#171618",
+        "base-300": "#2e2d2f",
+        "base-content": "#ffffff"
+      }
+    }
+  },
+  "navbar": {
+    "items": [
+      {
+        "url": "/feminino",
+        "name": "Novidades Moda Feminina",
+        "@type": "SiteNavigationElement",
+        "image": [
+          {
+            "url": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/7733d479-0fd1-4f33-bed9-6f9e170655d6",
+            "@type": "ImageObject"
+          }
+        ],
+        "children": [
+          {
+            "url": "/feminino/saias",
+            "name": "Novidades",
+            "@type": "SiteNavigationElement",
+            "children": [
+              {
+                "url": "/feminino/vestidos",
+                "name": "Mais vendidos",
+                "@type": "SiteNavigationElement"
+              },
+              {
+                "url": "/feminino/vestidos",
+                "name": "Parcerias",
+                "@type": "SiteNavigationElement"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "url": "/masculino",
+        "name": "Novidades Moda Masculina",
+        "@type": "SiteNavigationElement",
+        "image": [
+          {
+            "url": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/575c3b0f-1a2e-4ecb-aaad-532671dc553d",
+            "@type": "ImageObject"
+          }
+        ],
+        "children": [
+          {
+            "url": "/masculino",
+            "name": "Novidades",
+            "@type": "SiteNavigationElement",
+            "children": [
+              {
+                "url": "/masculino",
+                "name": "Mais vendidos",
+                "@type": "SiteNavigationElement"
+              },
+              {
+                "url": "/masculino",
+                "name": "Parcerias",
+                "@type": "SiteNavigationElement"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "url": "/sale",
+        "name": "Promoções",
+        "@type": "SiteNavigationElement",
+        "image": [
+          {
+            "url": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/5e9310c0-c725-4643-ade3-f92a505bd1d6",
+            "@type": "ImageObject"
+          }
+        ],
+        "children": [
+          {
+            "url": "/feminino",
+            "name": "Moda Feminina",
+            "@type": "SiteNavigationElement",
+            "children": [
+              {
+                "url": "/feminino",
+                "name": "Camisetas",
+                "@type": "SiteNavigationElement"
+              },
+              {
+                "url": "/feminino",
+                "name": "Camisas",
+                "@type": "SiteNavigationElement"
+              }
+            ]
+          },
+          {
+            "url": "/masculino",
+            "name": "Moda Masculino",
+            "@type": "SiteNavigationElement",
+            "children": [
+              {
+                "url": "/masculino",
+                "name": "Camisetas",
+                "@type": "SiteNavigationElement"
+              },
+              {
+                "url": "/masculino",
+                "name": "Regatas",
+                "@type": "SiteNavigationElement"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "__resolveType": "commerce/loaders/navbar.ts"
+  },
+  "Deco HUB": {
+    "__resolveType": "deco-sites/protot/apps/decohub.ts"
+  },
+  "FAQ - 01": {
+    "title": "FAQ",
+    "layout": {
+      "variation": "Side to side",
+      "headerAlignment": "left"
+    },
+    "questions": [
+      {
+        "answer": "<p>Fazer um pedido em nosso site de varejo de moda é fácil! Basta navegar pela nossa coleção, selecionar os itens que você ama, escolher o seu tamanho e cor preferidos, e clique no botão Adicionar ao carrinho. Depois de terminar as compras, vá para a página de finalização da compra, forneça suas informações de envio e pagamento e confirme seu pedido. Voila! Seu pedido estará a caminho de você em breve.</p>",
+        "question": "Como posso fazer um pedido?"
+      },
+      {
+        "answer": "<p>Aceitamos vários métodos de pagamento para proporcionar conveniência aos nossos clientes. Você pode pagar seu pedido com segurança usando os principais cartões de crédito, como Visa, Mastercard e American Express. Também aceitamos pagamentos através de PayPal para maior flexibilidade. Por favor, note que não aceitamos dinheiro na entrega ou cheques pessoais no momento.</p>",
+        "question": "Quais métodos de pagamento são aceitos?"
+      },
+      {
+        "answer": "<p>Entendemos a emoção de aguardar seus achados de moda, por isso oferecemos rastreamento de pedidos para mantê-lo informado. Assim que o seu pedido for enviado, enviaremos um e-mail de confirmação contendo um número de rastreamento e um link para o site do correio. Você pode clicar no link ou visitar o site do entregador diretamente e inserir o número de rastreamento para verificar o status e o paradeiro do seu pacote.</p><p><br></p>",
+        "question": "Como posso rastrear meu pedido?"
+      },
+      {
+        "answer": "<p>Absolutamente! Queremos que você fique completamente satisfeito com sua compra. Se você mudar de ideia sobre um item, oferecemos uma política de troca e devolução sem complicações. Pode iniciar uma devolução no prazo de 30 dias após a receção da sua encomenda. O item deve estar em sua condição original, sem uso e com todas as tags anexadas. Basta entrar em contato com nossa equipe de suporte ao cliente com os detalhes do seu pedido, e eles irão guiá-lo através do processo de devolução ou troca.</p>",
+        "question": "Posso devolver ou trocar um item?"
+      },
+      {
+        "answer": "<p>Sim, oferecemos transporte internacional para muitos países ao redor do mundo. Durante o processo de checkout, você pode selecionar seu país na lista de destinos disponíveis. Por favor, note que podem aplicar-se taxas de envio internacional e podem ser cobrados direitos aduaneiros ou impostos adicionais pelas autoridades aduaneiras do seu país. Estes encargos são da responsabilidade do cliente e não estão incluídos no preço do artigo ou no custo de envio.</p>",
+        "question": "Você oferece frete internacional?"
+      }
+    ],
+    "description": "Suas perguntas respondidas",
+    "__resolveType": "deco-sites/protot/sections/Content/Faq.tsx"
+  },
+  "FAQ - 02": {
+    "title": "FAQ",
+    "layout": {
+      "variation": "Full",
+      "headerAlignment": "center"
+    },
+    "questions": [
+      {
+        "answer": "<p>Fazer um pedido em nosso site de varejo de moda é fácil! Basta navegar pela nossa coleção, selecionar os itens que você ama, escolher o seu tamanho e cor preferidos, e clique no botão Adicionar ao carrinho. Depois de terminar as compras, vá para a página de finalização da compra, forneça suas informações de envio e pagamento e confirme seu pedido. Voila! Seu pedido estará a caminho de você em breve.</p>",
+        "question": "Como posso fazer um pedido?"
+      },
+      {
+        "answer": "<p>Aceitamos vários métodos de pagamento para proporcionar conveniência aos nossos clientes. Você pode pagar seu pedido com segurança usando os principais cartões de crédito, como Visa, Mastercard e American Express. Também aceitamos pagamentos através de PayPal para maior flexibilidade. Por favor, note que não aceitamos dinheiro na entrega ou cheques pessoais no momento.</p>",
+        "question": "Quais métodos de pagamento são aceitos?"
+      },
+      {
+        "answer": "<p>Entendemos a emoção de aguardar seus achados de moda, por isso oferecemos rastreamento de pedidos para mantê-lo informado. Assim que o seu pedido for enviado, enviaremos um e-mail de confirmação contendo um número de rastreamento e um link para o site do correio. Você pode clicar no link ou visitar o site do entregador diretamente e inserir o número de rastreamento para verificar o status e o paradeiro do seu pacote.</p><p><br></p>",
+        "question": "Como posso rastrear meu pedido?"
+      },
+      {
+        "answer": "<p>Absolutamente! Queremos que você fique completamente satisfeito com sua compra. Se você mudar de ideia sobre um item, oferecemos uma política de troca e devolução sem complicações. Pode iniciar uma devolução no prazo de 30 dias após a receção da sua encomenda. O item deve estar em sua condição original, sem uso e com todas as tags anexadas. Basta entrar em contato com nossa equipe de suporte ao cliente com os detalhes do seu pedido, e eles irão guiá-lo através do processo de devolução ou troca.</p>",
+        "question": "Posso devolver ou trocar um item?"
+      },
+      {
+        "answer": "<p>Sim, oferecemos transporte internacional para muitos países ao redor do mundo. Durante o processo de checkout, você pode selecionar seu país na lista de destinos disponíveis. Por favor, note que podem aplicar-se taxas de envio internacional e podem ser cobrados direitos aduaneiros ou impostos adicionais pelas autoridades aduaneiras do seu país. Estes encargos são da responsabilidade do cliente e não estão incluídos no preço do artigo ou no custo de envio.</p>",
+        "question": "Você oferece frete internacional?"
+      }
+    ],
+    "description": "Suas perguntas respondidas",
+    "__resolveType": "deco-sites/protot/sections/Content/Faq.tsx"
+  },
+  "FAQ - 03": {
+    "title": "FAQ",
+    "layout": {
+      "variation": "Compact",
+      "headerAlignment": "center"
+    },
+    "contact": {
+      "link": {
+        "href": "Fale Conosco",
+        "text": "Fale Conosco"
+      },
+      "title": "Ainda tem alguma dúvida?",
+      "description": "<p >Entre em contato agora</p>"
+    },
+    "questions": [
+      {
+        "answer": "<p>Fazer um pedido em nosso site de varejo de moda é fácil! Basta navegar pela nossa coleção, selecionar os itens que você ama, escolher o seu tamanho e cor preferidos, e clique no botão Adicionar ao carrinho. Depois de terminar as compras, vá para a página de finalização da compra, forneça suas informações de envio e pagamento e confirme seu pedido. Voila! Seu pedido estará a caminho de você em breve.</p>",
+        "question": "Como posso fazer um pedido?"
+      },
+      {
+        "answer": "<p>Aceitamos vários métodos de pagamento para proporcionar conveniência aos nossos clientes. Você pode pagar seu pedido com segurança usando os principais cartões de crédito, como Visa, Mastercard e American Express. Também aceitamos pagamentos através de PayPal para maior flexibilidade. Por favor, note que não aceitamos dinheiro na entrega ou cheques pessoais no momento.</p>",
+        "question": "Quais métodos de pagamento são aceitos?"
+      },
+      {
+        "answer": "<p>Absolutamente! Queremos que você fique completamente satisfeito com sua compra. Se você mudar de ideia sobre um item, oferecemos uma política de troca e devolução sem complicações. Pode iniciar uma devolução no prazo de 30 dias após a receção da sua encomenda. O item deve estar em sua condição original, sem uso e com todas as tags anexadas. Basta entrar em contato com nossa equipe de suporte ao cliente com os detalhes do seu pedido, e eles irão guiá-lo através do processo de devolução ou troca.</p>",
+        "question": "Posso devolver ou trocar um item?"
+      },
+      {
+        "answer": "<p>Entendemos a emoção de aguardar seus achados de moda, por isso oferecemos rastreamento de pedidos para mantê-lo informado. Assim que o seu pedido for enviado, enviaremos um e-mail de confirmação contendo um número de rastreamento e um link para o site do correio. Você pode clicar no link ou visitar o site do entregador diretamente e inserir o número de rastreamento para verificar o status e o paradeiro do seu pacote.</p><p><br></p>",
+        "question": "Como posso rastrear meu pedido?"
+      },
+      {
+        "answer": "<p>Sim, oferecemos transporte internacional para muitos países ao redor do mundo. Durante o processo de checkout, você pode selecionar seu país na lista de destinos disponíveis. Por favor, note que podem aplicar-se taxas de envio internacional e podem ser cobrados direitos aduaneiros ou impostos adicionais pelas autoridades aduaneiras do seu país. Estes encargos são da responsabilidade do cliente e não estão incluídos no preço do artigo ou no custo de envio.</p>",
+        "question": "Você oferece frete internacional?"
+      }
+    ],
+    "description": "Suas perguntas respondidas",
+    "__resolveType": "deco-sites/protot/sections/Content/Faq.tsx"
+  },
+  "Lemonade": {
+    "fonts": {
+      "fontFamily": "'Albert Sans'"
+    },
+    "mainColors": {
+      "primary": "#519903",
+      "base-100": "#ffffff",
+      "tertiary": "#F7F9CA",
+      "secondary": "#E9E92E"
+    },
+    "buttonStyle": {
+      "--border-btn": "1px",
+      "--rounded-btn": "0.2rem",
+      "--btn-text-case": "normal-case",
+      "--btn-focus-scale": "0.95"
+    },
+    "__resolveType": "deco-sites/protot/sections/Theme/Theme.tsx",
+    "complementaryColors": {
+      "primary": {
+        "primary-content": "#deebd1"
+      },
+      "tertiary": {
+        "tertiary-content": "#2f2f28"
+      },
+      "secondary": {
+        "secondary-content": "#2e2d14"
+      }
+    }
+  },
+  "Halloween": {
+    "fonts": {
+      "fontFamily": "'Courier New'"
+    },
+    "mainColors": {
+      "primary": "#f28c18",
+      "base-100": "#212121",
+      "tertiary": "#51a800",
+      "secondary": "#6d3a9c"
+    },
+    "buttonStyle": {
+      "--border-btn": "3px",
+      "--rounded-btn": "2rem",
+      "--btn-text-case": "uppercase",
+      "--btn-focus-scale": "1.05"
+    },
+    "__resolveType": "deco-sites/protot/sections/Theme/Theme.tsx"
+  },
+  "Workflows": {
+    "__resolveType": "decohub/apps/workflows.ts"
+  },
+  "analytics": {
+    "trackingIds": [
+      "GTM-KVXHNCM"
+    ],
+    "__resolveType": "deco-sites/std/sections/Analytics.tsx"
+  },
+  "configOCC": {
+    "__resolveType": "deco-sites/std/accounts/occ.ts"
+  },
+  "typesense": {
+    "apiKey": "90b213e1-5b08-4cab-9979-52ff92bc3302",
+    "apiUrls": [
+      "https://dry-pond-5415.fly.dev/"
+    ],
+    "__resolveType": "decohub/apps/typesense.ts"
+  },
+  "Intro Deco": {
+    "links": [
+      {
+        "href": "https://twitter.com/decocx_commerce",
+        "title": "Twitter"
+      },
+      {
+        "href": "https://www.linkedin.com/company/deco-cx/?originalSubdomain=br",
+        "title": "LinkedIn"
+      },
+      {
+        "href": "http://github.com/deco-cx",
+        "title": "Github"
+      }
+    ],
+    "picture": "https://media.licdn.com/dms/image/D4D0BAQHBdzRnagoSUg/company-logo_200_200/0/1682012307830?e=2147483647&v=beta&t=rA3XxMn_rYI2MZTJS3FoLUodnOKCSTowLjK46tW58uM",
+    "headline": "deco.cx",
+    "introduction": "<p><a href=\"deco.cx\" target=\"_blank\">deco.cx</a> is the best way for you to build your site</p>",
+    "__resolveType": "deco-sites/protot/sections/Intro.tsx"
+  },
+  "Logos - 01": {
+    "title": "Our Partners",
+    "images": [
+      {
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/d00893c6-3074-418f-b36d-28ad45fffaad",
+        "altText": "test"
+      },
+      {
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/52aff497-3311-4fca-a470-5e8b8a19c54b",
+        "altText": "test"
+      },
+      {
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/c970b103-9ad4-43c0-b5bd-93e4f84de82b",
+        "altText": "/"
+      },
+      {
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/f01c7ebf-07bb-4ae6-a2df-a6e302996d5c",
+        "altText": "/"
+      },
+      {
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/d45c6c35-4db1-4665-af19-18b54ee8d808",
+        "altText": "/"
+      },
+      {
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/62e1174b-c04f-48ef-aa3c-1b531ae2a2d8",
+        "altText": "/"
+      },
+      {
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/168815f2-fc66-422f-8f5f-86af1e787fc3",
+        "altText": "/"
+      },
+      {
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/942eb0da-d408-4477-ba59-b089119138af",
+        "altText": "/"
+      },
+      {
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/5851e5e4-b986-4958-b8d6-12eb620ab575",
+        "altText": "/"
+      },
+      {
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/74e4fe58-93e3-42c0-ba97-92626bc3d412",
+        "altText": "/"
+      },
+      {
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/62805daf-19bc-4800-93c8-2c06a5859c1f",
+        "altText": "/"
+      },
+      {
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/1ef3c4e3-e024-42cf-8798-02bfdc48102a",
+        "altText": "/"
+      }
+    ],
+    "layout": {
+      "headerAlignment": "center"
+    },
+    "description": "Take a look at our Partner Agencies",
+    "__resolveType": "deco-sites/protot/sections/Content/Logos.tsx"
+  },
+  "SEODefault": {
+    "type": "website",
+    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/b8f3b3df-31e3-4d15-b8a7-15f40c252f66",
+    "title": "Fashion by deco.cx",
+    "description": "Lightning fast stores. Available now - deco.cx",
+    "__resolveType": "deco-sites/std/sections/SEO.tsx",
+    "titleTemplate": "%s | Fashion by deco.cx"
+  },
+  "configVNDA": {
+    "__resolveType": "deco-sites/std/accounts/vnda.ts"
+  },
+  "configVTEX": {
+    "account": "bravtexfashionstore",
+    "publicUrl": "fashion.bravtexstores.com.br",
+    "__resolveType": "deco-sites/std/accounts/vtex.ts",
+    "defaultLocale": "pt-BR",
+    "defaultSalesChannel": "1",
+    "defaultPriceCurrency": "BRL",
+    "defaultHideUnnavailableItems": false
+  },
+  "vestidos-4": {
+    "count": 4,
+    "query": "vestidos",
+    "collection": [],
+    "__resolveType": "deco-sites/std/functions/vtexProductList.ts"
+  },
+  "vtex-olive": {
+    "count": 4,
+    "query": "olive",
+    "collection": [],
+    "__resolveType": "deco-sites/std/functions/vtexProductList.ts"
+  },
+  "Footer - 01": {
+    "logo": {
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/79a5eab5-4a2c-4bf5-a424-ff6f141a430c",
+      "description": "O estilo pensado para você"
+    },
+    "layout": {
+      "hide": {
+        "logo": false,
+        "mobileApps": false,
+        "newsletter": false,
+        "socialLinks": false,
+        "regionOptions": false
+      },
+      "variation": "Variation 1",
+      "backgroundColor": "Primary"
+    },
+    "social": {
+      "items": [
+        {
+          "link": "http://deco.cx/",
+          "label": "Discord"
+        },
+        {
+          "link": "http://deco.cx/",
+          "label": "Facebook"
+        },
+        {
+          "link": "http://deco.cx/",
+          "label": "Instagram"
+        },
+        {
+          "link": "http://deco.cx/",
+          "label": "Linkedin"
+        },
+        {
+          "link": "http://deco.cx/",
+          "label": "Tiktok"
+        },
+        {
+          "link": "http://deco.cx/",
+          "label": "Twitter"
+        }
+      ],
+      "title": "Siga-nos nas redes"
+    },
+    "payments": {
+      "items": [
+        {
+          "label": "Elo"
+        },
+        {
+          "label": "Mastercard"
+        },
+        {
+          "label": "Pix"
+        },
+        {
+          "label": "Visa"
+        }
+      ],
+      "title": "Formas de pagamento"
+    },
+    "sections": [
+      {
+        "items": [
+          {
+            "href": "/quem-somos",
+            "label": "Quem somos"
+          },
+          {
+            "href": "/privacidade",
+            "label": "Privacidade e segurança"
+          },
+          {
+            "href": "/termos-de-uso",
+            "label": "Termos de uso"
+          },
+          {
+            "href": "/trabalhe-conosco",
+            "label": "Trabalhe conosco"
+          }
+        ],
+        "label": "Sobre",
+        "children": [
+          {
+            "href": "/quemsomos",
+            "label": "Quem somos"
+          },
+          {
+            "href": "/privacidadeeseguranca",
+            "label": "Privacidade e segurança"
+          },
+          {
+            "href": "/termosdeuso",
+            "label": "Termos de uso"
+          },
+          {
+            "href": "/trabalheconosco",
+            "label": "Trabalhe conosco"
+          }
+        ]
+      },
+      {
+        "items": [
+          {
+            "href": "/central-de-atendimento",
+            "label": "Central de atendimento"
+          },
+          {
+            "href": "/fale-whatsapp",
+            "label": "Fale conosco pelo Whatsapp"
+          },
+          {
+            "href": "/troca-e-devolucao",
+            "label": "Troca e devolução"
+          }
+        ],
+        "label": "Atendimento",
+        "children": [
+          {
+            "href": "/centraldeatendimento",
+            "label": "Central de atendimento"
+          },
+          {
+            "href": "/whatsapp",
+            "label": "Fale conosco pelo WhatsApp"
+          },
+          {
+            "href": "/trocaedevolucao",
+            "label": "Troca e devolução"
+          }
+        ]
+      },
+      {
+        "items": [
+          {
+            "href": "/login",
+            "label": "Login e cadastro"
+          },
+          {
+            "href": "/meus-pedidos",
+            "label": "Meus pedidos"
+          }
+        ],
+        "label": "Minha conta",
+        "children": [
+          {
+            "href": "/loginecadastro",
+            "label": "Login e cadastro"
+          },
+          {
+            "href": "/meuspedidos",
+            "label": "Meus pedidos"
+          }
+        ]
+      }
+    ],
+    "extraLinks": [
+      {
+        "href": "http://www.google.com",
+        "link": "http://www.google.com/",
+        "label": "Política de privacidade"
+      },
+      {
+        "href": "http://www.google.com",
+        "link": "http://www.google.com",
+        "label": "Termos de serviço"
+      }
+    ],
+    "mobileApps": {
+      "apple": "http://www.google.com",
+      "android": "http://www.google.com"
+    },
+    "newsletter": {
+      "form": {
+        "helpText": "<p>Ao se inscrever, você está aceitando nossa <a href=\"/\" class=\"link\">Política de Privacidade</a>.</p>"
+      },
+      "title": "Assine nossa newsletter",
+      "description": "Participe e ganhe 10% de desconto na primeira compra"
+    },
+    "backToTheTop": {
+      "text": "Voltar ao topo"
+    },
+    "__resolveType": "deco-sites/protot/sections/Footer/Footer.tsx",
+    "regionOptions": {
+      "currency": [
+        {
+          "href": "/",
+          "label": "Brasil BRL"
+        },
+        {
+          "href": "/",
+          "label": "United Stated USD"
+        }
+      ],
+      "language": [
+        {
+          "href": "/",
+          "label": "PT"
+        },
+        {
+          "href": "/",
+          "label": "EN"
+        }
+      ]
+    }
+  },
+  "Footer - 02": {
+    "logo": {
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/79a5eab5-4a2c-4bf5-a424-ff6f141a430c",
+      "description": "O estilo pensado para você"
+    },
+    "layout": {
+      "hide": {
+        "logo": false,
+        "mobileApps": false,
+        "newsletter": false,
+        "socialLinks": false,
+        "regionOptions": false
+      },
+      "variation": "Variation 2",
+      "backgroundColor": "Secondary"
+    },
+    "social": {
+      "items": [
+        {
+          "link": "http://deco.cx/",
+          "label": "Discord"
+        },
+        {
+          "link": "http://deco.cx/",
+          "label": "Facebook"
+        },
+        {
+          "link": "http://deco.cx/",
+          "label": "Instagram"
+        },
+        {
+          "link": "http://deco.cx/",
+          "label": "Linkedin"
+        },
+        {
+          "link": "http://deco.cx/",
+          "label": "Tiktok"
+        },
+        {
+          "link": "http://deco.cx/",
+          "label": "Twitter"
+        }
+      ],
+      "title": "Siga-nos nas redes"
+    },
+    "payments": {
+      "items": [
+        {
+          "label": "Elo"
+        },
+        {
+          "label": "Mastercard"
+        },
+        {
+          "label": "Pix"
+        },
+        {
+          "label": "Visa"
+        }
+      ],
+      "title": "Formas de pagamento"
+    },
+    "sections": [
+      {
+        "items": [
+          {
+            "href": "/quem-somos",
+            "label": "Quem somos"
+          },
+          {
+            "href": "/privacidade",
+            "label": "Privacidade e segurança"
+          },
+          {
+            "href": "/termos-de-uso",
+            "label": "Termos de uso"
+          },
+          {
+            "href": "/trabalhe-conosco",
+            "label": "Trabalhe conosco"
+          }
+        ],
+        "label": "Sobre",
+        "children": [
+          {
+            "href": "/quemsomos",
+            "label": "Quem somos"
+          },
+          {
+            "href": "/privacidadeeseguranca",
+            "label": "Privacidade e segurança"
+          },
+          {
+            "href": "/termosdeuso",
+            "label": "Termos de uso"
+          },
+          {
+            "href": "/trabalheconosco",
+            "label": "Trabalhe conosco"
+          }
+        ]
+      },
+      {
+        "items": [
+          {
+            "href": "/central-de-atendimento",
+            "label": "Central de atendimento"
+          },
+          {
+            "href": "/fale-whatsapp",
+            "label": "Fale conosco pelo Whatsapp"
+          },
+          {
+            "href": "/troca-e-devolucao",
+            "label": "Troca e devolução"
+          }
+        ],
+        "label": "Atendimento",
+        "children": [
+          {
+            "href": "/centraldeatendimento",
+            "label": "Central de atendimento"
+          },
+          {
+            "href": "/whatsapp",
+            "label": "Fale conosco pelo WhatsApp"
+          },
+          {
+            "href": "/trocaedevolucao",
+            "label": "Troca e devolução"
+          }
+        ]
+      },
+      {
+        "items": [
+          {
+            "href": "/login",
+            "label": "Login e cadastro"
+          },
+          {
+            "href": "/meus-pedidos",
+            "label": "Meus pedidos"
+          }
+        ],
+        "label": "Minha conta",
+        "children": [
+          {
+            "href": "/loginecadastro",
+            "label": "Login e cadastro"
+          },
+          {
+            "href": "/meuspedidos",
+            "label": "Meus pedidos"
+          }
+        ]
+      }
+    ],
+    "extraLinks": [
+      {
+        "href": "http://www.google.com",
+        "link": "http://www.google.com/",
+        "label": "Política de privacidade"
+      },
+      {
+        "href": "http://www.google.com",
+        "link": "http://www.google.com",
+        "label": "Termos de serviço"
+      }
+    ],
+    "mobileApps": {
+      "apple": "http://www.google.com",
+      "android": "http://www.google.com"
+    },
+    "newsletter": {
+      "form": {
+        "helpText": "<p>Ao se inscrever, você está aceitando nossa <a href=\"/\" class=\"link\">Política de Privacidade</a>.</p>"
+      },
+      "title": "Assine nossa newsletter",
+      "description": "Participe e ganhe 10% de desconto na primeira compra"
+    },
+    "backToTheTop": {
+      "text": "Voltar ao topo"
+    },
+    "__resolveType": "deco-sites/protot/sections/Footer/Footer.tsx",
+    "regionOptions": {
+      "currency": [
+        {
+          "href": "/",
+          "label": "Brasil BRL"
+        },
+        {
+          "href": "/",
+          "label": "United Stated USD"
+        }
+      ],
+      "language": [
+        {
+          "href": "/",
+          "label": "PT"
+        },
+        {
+          "href": "/",
+          "label": "EN"
+        }
+      ]
+    }
+  },
+  "Footer - 03": {
+    "logo": {
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/79a5eab5-4a2c-4bf5-a424-ff6f141a430c",
+      "description": "O estilo pensado para você"
+    },
+    "layout": {
+      "hide": {
+        "logo": false,
+        "mobileApps": false,
+        "newsletter": false,
+        "socialLinks": false,
+        "regionOptions": false
+      },
+      "variation": "Variation 3",
+      "backgroundColor": "Accent"
+    },
+    "social": {
+      "items": [
+        {
+          "link": "http://deco.cx/",
+          "label": "Discord"
+        },
+        {
+          "link": "http://deco.cx/",
+          "label": "Facebook"
+        },
+        {
+          "link": "http://deco.cx/",
+          "label": "Instagram"
+        },
+        {
+          "link": "http://deco.cx/",
+          "label": "Linkedin"
+        },
+        {
+          "link": "http://deco.cx/",
+          "label": "Tiktok"
+        },
+        {
+          "link": "http://deco.cx/",
+          "label": "Twitter"
+        }
+      ],
+      "title": "Siga-nos nas redes"
+    },
+    "payments": {
+      "items": [
+        {
+          "label": "Elo"
+        },
+        {
+          "label": "Mastercard"
+        },
+        {
+          "label": "Pix"
+        },
+        {
+          "label": "Visa"
+        }
+      ],
+      "title": "Formas de pagamento"
+    },
+    "sections": [
+      {
+        "items": [
+          {
+            "href": "/quem-somos",
+            "label": "Quem somos"
+          },
+          {
+            "href": "/privacidade",
+            "label": "Privacidade e segurança"
+          },
+          {
+            "href": "/termos-de-uso",
+            "label": "Termos de uso"
+          },
+          {
+            "href": "/trabalhe-conosco",
+            "label": "Trabalhe conosco"
+          }
+        ],
+        "label": "Sobre",
+        "children": [
+          {
+            "href": "/quemsomos",
+            "label": "Quem somos"
+          },
+          {
+            "href": "/privacidadeeseguranca",
+            "label": "Privacidade e segurança"
+          },
+          {
+            "href": "/termosdeuso",
+            "label": "Termos de uso"
+          },
+          {
+            "href": "/trabalheconosco",
+            "label": "Trabalhe conosco"
+          }
+        ]
+      },
+      {
+        "items": [
+          {
+            "href": "/central-de-atendimento",
+            "label": "Central de atendimento"
+          },
+          {
+            "href": "/fale-whatsapp",
+            "label": "Fale conosco pelo Whatsapp"
+          },
+          {
+            "href": "/troca-e-devolucao",
+            "label": "Troca e devolução"
+          }
+        ],
+        "label": "Atendimento",
+        "children": [
+          {
+            "href": "/centraldeatendimento",
+            "label": "Central de atendimento"
+          },
+          {
+            "href": "/whatsapp",
+            "label": "Fale conosco pelo WhatsApp"
+          },
+          {
+            "href": "/trocaedevolucao",
+            "label": "Troca e devolução"
+          }
+        ]
+      },
+      {
+        "items": [
+          {
+            "href": "/login",
+            "label": "Login e cadastro"
+          },
+          {
+            "href": "/meus-pedidos",
+            "label": "Meus pedidos"
+          }
+        ],
+        "label": "Minha conta",
+        "children": [
+          {
+            "href": "/loginecadastro",
+            "label": "Login e cadastro"
+          },
+          {
+            "href": "/meuspedidos",
+            "label": "Meus pedidos"
+          }
+        ]
+      }
+    ],
+    "extraLinks": [
+      {
+        "href": "http://www.google.com",
+        "link": "http://www.google.com/",
+        "label": "Política de privacidade"
+      },
+      {
+        "href": "http://www.google.com",
+        "link": "http://www.google.com",
+        "label": "Termos de serviço"
+      }
+    ],
+    "mobileApps": {
+      "apple": "http://www.google.com",
+      "android": "http://www.google.com"
+    },
+    "newsletter": {
+      "form": {
+        "helpText": "<p>Ao se inscrever, você está aceitando nossa <a href=\"/\" class=\"link\">Política de Privacidade</a>.</p>"
+      },
+      "title": "Assine nossa newsletter",
+      "description": "Participe e ganhe 10% de desconto na primeira compra"
+    },
+    "backToTheTop": {
+      "text": "Voltar ao topo"
+    },
+    "__resolveType": "deco-sites/protot/sections/Footer/Footer.tsx",
+    "regionOptions": {
+      "currency": [
+        {
+          "href": "/",
+          "label": "Brasil BRL"
+        },
+        {
+          "href": "/",
+          "label": "United Stated USD"
+        }
+      ],
+      "language": [
+        {
+          "href": "/",
+          "label": "PT"
+        },
+        {
+          "href": "/",
+          "label": "EN"
+        }
+      ]
+    }
+  },
+  "Footer - 04": {
+    "logo": {
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/79a5eab5-4a2c-4bf5-a424-ff6f141a430c",
+      "description": "O estilo pensado para você"
+    },
+    "layout": {
+      "hide": {
+        "logo": false,
+        "mobileApps": false,
+        "newsletter": false,
+        "socialLinks": false,
+        "regionOptions": false
+      },
+      "variation": "Variation 4",
+      "backgroundColor": "Base 100"
+    },
+    "social": {
+      "items": [
+        {
+          "link": "http://deco.cx/",
+          "label": "Discord"
+        },
+        {
+          "link": "http://deco.cx/",
+          "label": "Facebook"
+        },
+        {
+          "link": "http://deco.cx/",
+          "label": "Instagram"
+        },
+        {
+          "link": "http://deco.cx/",
+          "label": "Linkedin"
+        },
+        {
+          "link": "http://deco.cx/",
+          "label": "Tiktok"
+        },
+        {
+          "link": "http://deco.cx/",
+          "label": "Twitter"
+        }
+      ],
+      "title": "Siga-nos nas redes"
+    },
+    "payments": {
+      "items": [
+        {
+          "label": "Elo"
+        },
+        {
+          "label": "Mastercard"
+        },
+        {
+          "label": "Pix"
+        },
+        {
+          "label": "Visa"
+        }
+      ],
+      "title": "Formas de pagamento"
+    },
+    "sections": [
+      {
+        "items": [
+          {
+            "href": "/quem-somos",
+            "label": "Quem somos"
+          },
+          {
+            "href": "/privacidade",
+            "label": "Privacidade e segurança"
+          },
+          {
+            "href": "/termos-de-uso",
+            "label": "Termos de uso"
+          },
+          {
+            "href": "/trabalhe-conosco",
+            "label": "Trabalhe conosco"
+          }
+        ],
+        "label": "Sobre",
+        "children": [
+          {
+            "href": "/quemsomos",
+            "label": "Quem somos"
+          },
+          {
+            "href": "/privacidadeeseguranca",
+            "label": "Privacidade e segurança"
+          },
+          {
+            "href": "/termosdeuso",
+            "label": "Termos de uso"
+          },
+          {
+            "href": "/trabalheconosco",
+            "label": "Trabalhe conosco"
+          }
+        ]
+      },
+      {
+        "items": [
+          {
+            "href": "/central-de-atendimento",
+            "label": "Central de atendimento"
+          },
+          {
+            "href": "/fale-whatsapp",
+            "label": "Fale conosco pelo Whatsapp"
+          },
+          {
+            "href": "/troca-e-devolucao",
+            "label": "Troca e devolução"
+          }
+        ],
+        "label": "Atendimento",
+        "children": [
+          {
+            "href": "/centraldeatendimento",
+            "label": "Central de atendimento"
+          },
+          {
+            "href": "/whatsapp",
+            "label": "Fale conosco pelo WhatsApp"
+          },
+          {
+            "href": "/trocaedevolucao",
+            "label": "Troca e devolução"
+          }
+        ]
+      },
+      {
+        "items": [
+          {
+            "href": "/login",
+            "label": "Login e cadastro"
+          },
+          {
+            "href": "/meus-pedidos",
+            "label": "Meus pedidos"
+          }
+        ],
+        "label": "Minha conta",
+        "children": [
+          {
+            "href": "/loginecadastro",
+            "label": "Login e cadastro"
+          },
+          {
+            "href": "/meuspedidos",
+            "label": "Meus pedidos"
+          }
+        ]
+      }
+    ],
+    "extraLinks": [
+      {
+        "href": "http://www.google.com",
+        "link": "http://www.google.com/",
+        "label": "Política de privacidade"
+      },
+      {
+        "href": "http://www.google.com",
+        "link": "http://www.google.com",
+        "label": "Termos de serviço"
+      }
+    ],
+    "mobileApps": {
+      "apple": "http://www.google.com",
+      "android": "http://www.google.com"
+    },
+    "newsletter": {
+      "form": {
+        "helpText": "<p>Ao se inscrever, você está aceitando nossa <a href=\"/\" class=\"link\">Política de Privacidade</a>.</p>"
+      },
+      "title": "Assine nossa newsletter",
+      "description": "Participe e ganhe 10% de desconto na primeira compra"
+    },
+    "backToTheTop": {
+      "text": "Voltar ao topo"
+    },
+    "__resolveType": "deco-sites/protot/sections/Footer/Footer.tsx",
+    "regionOptions": {
+      "currency": [
+        {
+          "href": "/",
+          "label": "Brasil BRL"
+        },
+        {
+          "href": "/",
+          "label": "United Stated USD"
+        }
+      ],
+      "language": [
+        {
+          "href": "/",
+          "label": "PT"
+        },
+        {
+          "href": "/",
+          "label": "EN"
+        }
+      ]
+    }
+  },
+  "Footer - 05": {
+    "logo": {
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/79a5eab5-4a2c-4bf5-a424-ff6f141a430c",
+      "description": "O estilo pensado para você"
+    },
+    "layout": {
+      "hide": {
+        "logo": false,
+        "mobileApps": false,
+        "newsletter": false,
+        "socialLinks": false,
+        "regionOptions": false
+      },
+      "variation": "Variation 5",
+      "backgroundColor": "Primary"
+    },
+    "social": {
+      "items": [
+        {
+          "link": "http://deco.cx/",
+          "label": "Discord"
+        },
+        {
+          "link": "http://deco.cx/",
+          "label": "Facebook"
+        },
+        {
+          "link": "http://deco.cx/",
+          "label": "Instagram"
+        },
+        {
+          "link": "http://deco.cx/",
+          "label": "Linkedin"
+        },
+        {
+          "link": "http://deco.cx/",
+          "label": "Tiktok"
+        },
+        {
+          "link": "http://deco.cx/",
+          "label": "Twitter"
+        }
+      ],
+      "title": "Siga-nos nas redes"
+    },
+    "payments": {
+      "items": [
+        {
+          "label": "Elo"
+        },
+        {
+          "label": "Mastercard"
+        },
+        {
+          "label": "Pix"
+        },
+        {
+          "label": "Visa"
+        }
+      ],
+      "title": "Formas de pagamento"
+    },
+    "sections": [
+      {
+        "items": [
+          {
+            "href": "/quem-somos",
+            "label": "Quem somos"
+          },
+          {
+            "href": "/privacidade",
+            "label": "Privacidade e segurança"
+          },
+          {
+            "href": "/termos-de-uso",
+            "label": "Termos de uso"
+          },
+          {
+            "href": "/trabalhe-conosco",
+            "label": "Trabalhe conosco"
+          }
+        ],
+        "label": "Sobre",
+        "children": [
+          {
+            "href": "/quemsomos",
+            "label": "Quem somos"
+          },
+          {
+            "href": "/privacidadeeseguranca",
+            "label": "Privacidade e segurança"
+          },
+          {
+            "href": "/termosdeuso",
+            "label": "Termos de uso"
+          },
+          {
+            "href": "/trabalheconosco",
+            "label": "Trabalhe conosco"
+          }
+        ]
+      },
+      {
+        "items": [
+          {
+            "href": "/central-de-atendimento",
+            "label": "Central de atendimento"
+          },
+          {
+            "href": "/fale-whatsapp",
+            "label": "Fale conosco pelo Whatsapp"
+          },
+          {
+            "href": "/troca-e-devolucao",
+            "label": "Troca e devolução"
+          }
+        ],
+        "label": "Atendimento",
+        "children": [
+          {
+            "href": "/centraldeatendimento",
+            "label": "Central de atendimento"
+          },
+          {
+            "href": "/whatsapp",
+            "label": "Fale conosco pelo WhatsApp"
+          },
+          {
+            "href": "/trocaedevolucao",
+            "label": "Troca e devolução"
+          }
+        ]
+      },
+      {
+        "items": [
+          {
+            "href": "/login",
+            "label": "Login e cadastro"
+          },
+          {
+            "href": "/meus-pedidos",
+            "label": "Meus pedidos"
+          }
+        ],
+        "label": "Minha conta",
+        "children": [
+          {
+            "href": "/loginecadastro",
+            "label": "Login e cadastro"
+          },
+          {
+            "href": "/meuspedidos",
+            "label": "Meus pedidos"
+          }
+        ]
+      }
+    ],
+    "extraLinks": [
+      {
+        "href": "http://www.google.com",
+        "link": "http://www.google.com/",
+        "label": "Política de privacidade"
+      },
+      {
+        "href": "http://www.google.com",
+        "link": "http://www.google.com",
+        "label": "Termos de serviço"
+      }
+    ],
+    "mobileApps": {
+      "apple": "http://www.google.com",
+      "android": "http://www.google.com"
+    },
+    "newsletter": {
+      "form": {
+        "helpText": "<p>Ao se inscrever, você está aceitando nossa <a href=\"/\" class=\"link\">Política de Privacidade</a>.</p>"
+      },
+      "title": "Assine nossa newsletter",
+      "description": "Participe e ganhe 10% de desconto na primeira compra"
+    },
+    "backToTheTop": {
+      "text": "Voltar ao topo"
+    },
+    "__resolveType": "deco-sites/protot/sections/Footer/Footer.tsx",
+    "regionOptions": {
+      "currency": [
+        {
+          "href": "/",
+          "label": "Brasil BRL"
+        },
+        {
+          "href": "/",
+          "label": "United Stated USD"
+        }
+      ],
+      "language": [
+        {
+          "href": "/",
+          "label": "PT"
+        },
+        {
+          "href": "/",
+          "label": "EN"
+        }
+      ]
+    }
+  },
+  "Header - 01": {
+    "cart": {
+      "freeShippingObjectiveQuantity": 600
+    },
+    "logo": {
+      "alt": "Fashion logo by deco",
+      "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2583/f9cc6714-fc14-4d13-bbbb-ad2209cab10e"
+    },
+    "alerts": [
+      
+    ],
+    "navItems": {
+      "__resolveType": "navbar"
+    },
+    "products": [],
+    "searchbar": {
+      "name": "q",
+      "action": "/s",
+      "loader": {
+        "data": {
+          "count": 5,
+          "highlight": true,
+          "__resolveType": "algolia/loaders/product/suggestions.ts"
+        },
+        "__resolveType": "resolved"
+      },
+      "placeholder": "What are you looking for?"
+    },
+    "suggestions": {
+      "products": [],
+      "searches": []
+    },
+    "__resolveType": "deco-sites/protot/sections/Header/Header.tsx"
+  },
+  "SEO Default": {
+    "type": "website",
+    "image": "https://www.deco.cx/decocx-meta-en.png",
+    "title": "Start by deco.cx",
+    "description": "This is a site template for deco.cx",
+    "__resolveType": "deco-sites/std/sections/SEO.tsx",
+    "titleTemplate": "%s | Start by deco.cx"
+  },
+  "Algolia Raiz": {
+    "adminAPIKey": "72d4757e3b28da7e2b18ca1c8b96a4e3",
+    "searchAPIKey": "f48360f6586a1c440d91fcc3af63db56",
+    "__resolveType": "deco-sites/protot/apps/algolia-raiz.ts",
+    "applicationId": "ETUYHD7AX5"
+  },
+  "Notification": {
+    "product": {
+      "0": {
+        "__resolveType": "algolia/workflows/index/product.ts"
+      },
+      "data": [
+        {
+          "__resolveType": "algolia/workflows/index/product.ts"
+        }
+      ],
+      "__resolveType": "resolved"
+    },
+    "__resolveType": "vtex/actions/notification.ts"
+  },
+  "Worflow Raiz": {
+    "__resolveType": "deco-sites/protot/apps/workflow-raiz.ts"
+  },
+  "my-redirects": {
+    "redirects": [
+      {
+        "to": "https://www.google.com",
+        "from": "/exemplo",
+        "type": "temporary"
+      }
+    ],
+    "__resolveType": "deco-sites/std/loaders/x/redirects.ts"
+  },
+  "vtex-trigger": {
+    "product": [
+      {
+        "__resolveType": "typesense/workflows/index/product.ts"
+      },
+      {
+        "__resolveType": "algolia/workflows/index/product.ts"
+      }
+    ],
+    "__resolveType": "vtex/workflows/events.ts"
+  },
+  "Benefits - 01": {
+    "title": "Take a look at our benefits",
+    "benefits": [
+      {
+        "icon": "Truck",
+        "label": "Free Shipping Worldwide",
+        "description": "Shop online with no additional fees!"
+      },
+      {
+        "icon": "Phone",
+        "label": "24/7 Online Support",
+        "description": "Instant assistance anytime"
+      },
+      {
+        "icon": "Discount",
+        "label": "15% on the first purchase",
+        "description": "Discount for new customers"
+      },
+      {
+        "icon": "ArrowsPointingOut",
+        "label": "Hassle-Free Returns",
+        "description": "Easy and Convenient Return Policy"
+      }
+    ],
+    "__resolveType": "deco-sites/protot/sections/Content/Benefits.tsx"
+  },
+  "Benefits - 02": {
+    "title": "Take a look at our benefits ",
+    "layout": {
+      "variation": "Color reverse",
+      "headerAlignment": "center"
+    },
+    "benefits": [
+      {
+        "icon": "Truck",
+        "label": "Free Shipping Worldwide",
+        "description": "Shop online with no additional fees!"
+      },
+      {
+        "icon": "Phone",
+        "label": "24/7 Online Support",
+        "description": "Instant assistance anytime"
+      },
+      {
+        "icon": "Discount",
+        "label": "15% on the first purchase",
+        "description": "Discount for new customers"
+      },
+      {
+        "icon": "ArrowsPointingOut",
+        "label": "Easy Hassle-Free Returns",
+        "description": "Easy and Convenient Return Policy"
+      }
+    ],
+    "__resolveType": "deco-sites/protot/sections/Content/Benefits.tsx"
+  },
+  "Benefits - 03": {
+    "title": "Take a look at our benefits ",
+    "layout": {
+      "variation": "With border",
+      "headerAlignment": "center"
+    },
+    "benefits": [
+      {
+        "icon": "Truck",
+        "label": "Free Shipping Worldwide",
+        "description": "Shop online with no additional fees!"
+      },
+      {
+        "icon": "Phone",
+        "label": "24/7 Online Support",
+        "description": "Instant assistance anytime"
+      },
+      {
+        "icon": "Discount",
+        "label": "15% on the first purchase",
+        "description": "Discount for new customers"
+      },
+      {
+        "icon": "ArrowsPointingOut",
+        "label": "Easy Hassle-Free Returns",
+        "description": "Easy and Convenient Return Policy"
+      }
+    ],
+    "__resolveType": "deco-sites/protot/sections/Content/Benefits.tsx"
+  },
+  "Carousel - 01": {
+    "images": [
+      {
+        "alt": "/feminino",
+        "action": {
+          "href": "https://www.deco.cx/",
+          "label": "deco.cx",
+          "title": "VTEX Store",
+          "subTitle": "Visit our site and start building now:"
+        },
+        "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/24278f9e-412d-4a8a-b2d3-57353bb1b368",
+        "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/afa2c07c-74f4-496d-8647-5cc58f48117b"
+      },
+      {
+        "alt": "/feminino",
+        "action": {
+          "href": "https://www.deco.cx/",
+          "label": "deco.cx",
+          "title": "VTEX Store",
+          "subTitle": "Visit our site and start building now:"
+        },
+        "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/eeaa624c-a3e1-45e8-a6fe-034233cfbcd0",
+        "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/7949d031-9a79-4639-b85e-62fd90af85a9"
+      },
+      {
+        "alt": "/feminino",
+        "action": {
+          "href": "https://www.deco.cx/",
+          "label": "deco.cx",
+          "title": "VTEX Store",
+          "subTitle": "Visit our site and start building now:"
+        },
+        "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/ae89571c-4a7c-44bf-9aeb-a341fd049d19",
+        "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/7ec121e4-5cfe-4b7b-b942-d1ed4493803d"
+      }
+    ],
+    "preload": true,
+    "__resolveType": "deco-sites/protot/sections/Images/Carousel.tsx"
+  },
+  "Fashion theme": {
+    "font": {
+      "fonts": [
+        {
+          "family": "Poppins",
+          "variations": [
+            {
+              "weight": "400"
+            },
+            {
+              "weight": "600"
+            },
+            {
+              "weight": "700"
+            }
+          ]
+        }
+      ],
+      "__resolveType": "website/loaders/fonts/googleFonts.ts"
+    },
+    "fonts": [
+      {
+        "fontFamily": "Poppins"
+      }
+    ],
+    "mainColors": {
+      "primary": "#384c53",
+      "base-100": "#FFFFFF",
+      "tertiary": "#5f9a99",
+      "secondary": "#a2accc"
+    },
+    "buttonStyle": {
+      "--border-btn": "1px",
+      "--rounded-btn": "0.2rem",
+      "--btn-text-case": "normal-case",
+      "--btn-focus-scale": "0.95"
+    },
+    "__resolveType": "deco-sites/protot/sections/Theme/Theme.tsx",
+    "complementaryColors": {
+      "primary": {
+        "primary-content": "#ffffff"
+      }
+    }
+  },
+  "LinkTree - 01": {
+    "links": [
+      {
+        "href": "https://www.instagram.com/deco.cx/",
+        "label": "Instagram"
+      },
+      {
+        "href": "https://br.linkedin.com/company/deco-cx",
+        "label": "LinkedIn"
+      }
+    ],
+    "title": "Fashion links",
+    "social": [],
+    "__resolveType": "deco-sites/protot/sections/Links/LinkTree.tsx"
+  },
+  "configShopify": {
+    "__resolveType": "deco-sites/std/accounts/shopify.ts"
+  },
+  "Shortcuts - 01": {
+    "layout": {
+      "tooltip": true
+    },
+    "onHover": "Show label",
+    "shortcuts": [
+      {
+        "icon": "WhatsApp",
+        "link": "/",
+        "label": "WhatsApp"
+      },
+      {
+        "icon": "Message",
+        "link": "/",
+        "label": "Chat"
+      },
+      {
+        "icon": "Ruler",
+        "link": "/",
+        "label": "Measurements"
+      },
+      {
+        "icon": "Truck",
+        "link": "/",
+        "label": "Shipping"
+      },
+      {
+        "icon": "ArrowsPointingOut",
+        "link": "/",
+        "label": "Returns"
+      }
+    ],
+    "__resolveType": "deco-sites/protot/sections/Links/Shortcuts.tsx"
+  },
+  "random-product": {
+    "rootEndpoint": "https://random-data-api.com/api/v2",
+    "__resolveType": "decohub/apps/random-product.ts"
+  },
+  "Newsletter - 01": {
+    "form": {
+      "helpText": "<p>By subscribing you agree to with our <u>Privacy Policy</u>.</p>",
+      "buttonText": "Subscribe",
+      "placeholder": "Enter your email"
+    },
+    "title": "Newsletter",
+    "layout": {
+      "content": {
+        "border": false,
+        "bgColor": "Reverse",
+        "alignment": "Side to side"
+      },
+      "headerFontSize": "Large"
+    },
+    "__resolveType": "deco-sites/protot/sections/Newsletter/Newsletter.tsx"
+  },
+  "Newsletter - 02": {
+    "form": {
+      "helpText": "<p>By subscribing you agree to with our <u>Privacy Policy</u>.</p>",
+      "buttonText": "Subscribe",
+      "placeholder": "Enter your email"
+    },
+    "title": "Sign up for our newsletter",
+    "layout": {
+      "content": {
+        "border": false,
+        "bgColor": "Reverse",
+        "alignment": "Center"
+      },
+      "headerFontSize": "Large"
+    },
+    "__resolveType": "deco-sites/protot/sections/Newsletter/Newsletter.tsx"
+  },
+  "Newsletter - 03": {
+    "form": {
+      "helpText": "<p>By subscribing you agree to with our <u>Privacy Policy</u>.</p>",
+      "buttonText": "Subscribe",
+      "placeholder": "Enter your email"
+    },
+    "title": "Sign up for our newsletter",
+    "layout": {
+      "content": {
+        "border": false,
+        "bgColor": "Reverse",
+        "alignment": "Left"
+      },
+      "headerFontSize": "Large"
+    },
+    "__resolveType": "deco-sites/protot/sections/Newsletter/Newsletter.tsx"
+  },
+  "Newsletter - 04": {
+    "form": {
+      "helpText": "<p>By subscribing you agree to with our <u>Privacy Policy</u>.</p>",
+      "buttonText": "Subscribe",
+      "placeholder": "Enter your email"
+    },
+    "title": "Newsletter",
+    "layout": {
+      "content": {
+        "border": true,
+        "bgColor": "Reverse",
+        "alignment": "Side to side"
+      },
+      "headerFontSize": "Large"
+    },
+    "__resolveType": "deco-sites/protot/sections/Newsletter/Newsletter.tsx"
+  },
+  "Newsletter - 05": {
+    "form": {
+      "helpText": "<p>By subscribing you agree to with our <u>Privacy Policy</u>.</p>",
+      "buttonText": "Subscribe",
+      "placeholder": "Enter your email"
+    },
+    "title": "Sign up for our newsletter",
+    "layout": {
+      "content": {
+        "border": true,
+        "bgColor": "Reverse",
+        "alignment": "Center"
+      },
+      "headerFontSize": "Large"
+    },
+    "__resolveType": "deco-sites/protot/sections/Newsletter/Newsletter.tsx"
+  },
+  "Newsletter - 06": {
+    "form": {
+      "helpText": "<p>By subscribing you agree to with our <u>Privacy Policy</u>.</p>",
+      "buttonText": "Subscribe",
+      "placeholder": "Enter your email"
+    },
+    "title": "Sign up for our newsletter",
+    "layout": {
+      "content": {
+        "border": true,
+        "bgColor": "Reverse",
+        "alignment": "Left"
+      },
+      "headerFontSize": "Large"
+    },
+    "__resolveType": "deco-sites/protot/sections/Newsletter/Newsletter.tsx"
+  },
+  "configYourViews": {
+    "__resolveType": "deco-sites/std/accounts/yourViews.ts"
+  },
+  "Banner Grid - 01": {
+    "title": "Summer bags",
+    "banners": [
+      {
+        "alt": "a",
+        "href": "a",
+        "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/82727553-f670-4e7c-b9c2-9452aed1955f",
+        "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/7b3a9d75-57a5-43cf-a3c5-f689a997f24e"
+      },
+      {
+        "alt": "a",
+        "href": "a",
+        "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/c5c6bdf6-5555-488c-8b14-719e4158dea6",
+        "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/3e2b7824-d75c-4704-8d32-621bfc9b20cf"
+      }
+    ],
+    "borderRadius": {
+      "mobile": "3xl",
+      "desktop": "3xl"
+    },
+    "itemsPerLine": {
+      "mobile": 2,
+      "desktop": 2
+    },
+    "__resolveType": "deco-sites/protot/sections/Images/BannerGrid.tsx"
+  },
+  "VtexVestidoLists": {
+    "count": 2,
+    "query": "vestido",
+    "__resolveType": "deco-sites/std/functions/vtexProductList.ts"
+  },
+  "Testimonials - 01": {
+    "title": "Testimonials",
+    "layout": {
+      "variation": "Grid",
+      "headerAlignment": "center"
+    },
+    "description": "Take a look at what our customers are saying",
+    "testimonials": [
+      {
+        "text": "Love shopping at Fashion! Quality products, exceptional service. Hassle-free returns and free shipping. My go-to for stylish fashion!",
+        "user": {
+          "name": "Rafael Crespo",
+          "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/6a595043-fb5b-43b4-b6dd-bd3154e4e595"
+        },
+        "image": {
+          "alt": "deco",
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/d0a79cf6-6825-4624-884c-f30bda6c3daf"
+        }
+      },
+      {
+        "text": "Thrilled with my first Fashion purchase. Seamless process, prompt delivery with free shipping. Exceeded expectations in style and quality!",
+        "user": {
+          "name": "Tiago Gimenes",
+          "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/850df7f9-120e-4155-ae79-c76e737535ee"
+        },
+        "image": {
+          "alt": "deco",
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/9dc5dddc-f8b5-4f70-847b-1f91b84ad7dc"
+        }
+      },
+      {
+        "text": "Fashion is my favorite online retailer. On-trend selection, exceptional quality. Easy returns and 24/7 online support. A delightful shopping experience!",
+        "user": {
+          "name": "Maria Luiza Aires",
+          "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/8327a46f-bb4e-4ae8-8cf2-963d530d3066"
+        },
+        "image": {
+          "alt": "deco",
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/ca4c79ea-5bd9-42d3-a60a-07c99c5f45c4"
+        }
+      }
+    ],
+    "__resolveType": "deco-sites/protot/sections/Content/Testimonials.tsx"
+  },
+  "Testimonials - 02": {
+    "title": "Testimonials",
+    "layout": {
+      "variation": "Slider",
+      "headerAlignment": "center"
+    },
+    "description": "Take a look at what our customers are saying",
+    "testimonials": [
+      {
+        "text": "I can't say enough about my experience shopping at this online fashion store. The website design is not only visually stunning but also incredibly user-friendly. It's a pleasure to browse through their extensive collection of fashionable clothing and accessories. The seamless checkout process makes purchasing items a breeze, and the fast and reliable shipping ensures I receive my orders in no time.",
+        "user": {
+          "name": "Rafael Crespo",
+          "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/6a595043-fb5b-43b4-b6dd-bd3154e4e595"
+        },
+        "image": {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/d0a79cf6-6825-4624-884c-f30bda6c3daf"
+        }
+      },
+      {
+        "text": "Thrilled with my first Fashion purchase. Seamless process, prompt delivery with free shipping. Exceeded expectations in style and quality!",
+        "user": {
+          "name": "Tiago Gimenes",
+          "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/850df7f9-120e-4155-ae79-c76e737535ee"
+        },
+        "image": {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/9dc5dddc-f8b5-4f70-847b-1f91b84ad7dc"
+        }
+      },
+      {
+        "text": "Fashion is my favorite online retailer. On-trend selection, exceptional quality. Easy returns and 24/7 online support. A delightful shopping experience!",
+        "user": {
+          "name": "Maria Luiza Aires",
+          "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/8327a46f-bb4e-4ae8-8cf2-963d530d3066"
+        },
+        "image": {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/ca4c79ea-5bd9-42d3-a60a-07c99c5f45c4"
+        }
+      }
+    ],
+    "__resolveType": "deco-sites/protot/sections/Content/Testimonials.tsx"
+  },
+  "Category List - 01": {
+    "list": [
+      {
+        "href": "/masculino",
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/5a8edfec-400f-421f-b436-4ce23d2b13e7",
+        "label": "Dresses",
+        "description": "Amazing"
+      },
+      {
+        "href": "/feminino",
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/7363da7a-8530-4e19-8b76-6f92c4da3f1e",
+        "label": "Bags",
+        "description": "Bags"
+      },
+      {
+        "href": "/",
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/33755494-9104-410e-9e48-256aef7fc113",
+        "label": "Shoes",
+        "description": "New deals"
+      },
+      {
+        "href": "/",
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/2d507523-6f5a-4bb5-98d5-d9c944b35845",
+        "label": "Jackets",
+        "description": "New colors"
+      },
+      {
+        "href": "/",
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/907b5510-d4a0-4d75-b2bf-c0c9e9b0ba68",
+        "label": "Jeans",
+        "description": "Amazing"
+      },
+      {
+        "href": "/",
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/40eb7c93-59a7-4963-9917-32508c56e4cc",
+        "label": "Shorts",
+        "description": "Summer"
+      }
+    ],
+    "header": {
+      "title": "Categories",
+      "description": "Take a look at our categories"
+    },
+    "layout": {
+      "categoryCard": {
+        "textPosition": "top",
+        "textAlignment": "center"
+      },
+      "headerAlignment": "center"
+    },
+    "__resolveType": "deco-sites/protot/sections/Category/CategoryList.tsx"
+  },
+  "Image Gallery - 01": {
+    "title": "New collections",
+    "banners": [
+      {
+        "alt": "Fashion",
+        "href": "/",
+        "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/29dbf8d4-90c3-43f7-9b6b-4c6bda5e7835"
+      },
+      {
+        "alt": "Fashion",
+        "href": "/",
+        "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/3210eea1-5437-4f19-8327-8b8fa4edfc45"
+      },
+      {
+        "alt": "Fashion",
+        "href": "/",
+        "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/1e6250d4-f9d2-4185-b8a6-b0e8a8fed4a7"
+      },
+      {
+        "alt": "Fashion",
+        "href": "/",
+        "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/a8d36df6-4b96-4421-bb6c-de0fe1478e06"
+      }
+    ],
+    "description": "Discover the collections of the season",
+    "__resolveType": "deco-sites/protot/sections/Images/ImageGallery.tsx"
+  },
+  "Image Gallery - 02": {
+    "title": "New collections",
+    "layout": {
+      "desktop": "Asymmetric",
+      "headerAlignment": "left"
+    },
+    "banners": [
+      {
+        "alt": "Fashion",
+        "href": "/",
+        "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/5703060b-d1f6-4dc2-898a-ccefeefd2eab"
+      },
+      {
+        "alt": "Fashion",
+        "href": "/",
+        "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/3210eea1-5437-4f19-8327-8b8fa4edfc45"
+      },
+      {
+        "alt": "Fashion",
+        "href": "/",
+        "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/1e6250d4-f9d2-4185-b8a6-b0e8a8fed4a7"
+      },
+      {
+        "alt": "Fashion",
+        "href": "/",
+        "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/a8d36df6-4b96-4421-bb6c-de0fe1478e06"
+      }
+    ],
+    "description": "Discover the collections of the season",
+    "__resolveType": "deco-sites/protot/sections/Images/ImageGallery.tsx"
+  },
+  "Image Gallery - 03": {
+    "title": "New collections",
+    "layout": {
+      "desktop": "Symmetrical",
+      "headerAlignment": "center"
+    },
+    "banners": [
+      {
+        "alt": "Fashion",
+        "href": "/",
+        "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/29dbf8d4-90c3-43f7-9b6b-4c6bda5e7835"
+      },
+      {
+        "alt": "Fashion",
+        "href": "/",
+        "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/3210eea1-5437-4f19-8327-8b8fa4edfc45"
+      },
+      {
+        "alt": "Fashion",
+        "href": "/",
+        "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/1e6250d4-f9d2-4185-b8a6-b0e8a8fed4a7"
+      },
+      {
+        "alt": "Fashion",
+        "href": "/",
+        "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/a8d36df6-4b96-4421-bb6c-de0fe1478e06"
+      }
+    ],
+    "description": "Discover the collections of the season",
+    "__resolveType": "deco-sites/protot/sections/Images/ImageGallery.tsx"
+  },
+  "Image Gallery - 04": {
+    "title": "etset",
+    "layout": {
+      "desktop": "Symmetrical",
+      "headerAlignment": "left"
+    },
+    "banners": [
+      {
+        "alt": "Fashion",
+        "href": "/",
+        "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/29dbf8d4-90c3-43f7-9b6b-4c6bda5e7835",
+        "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/f7b0094f-b8f6-4806-bd43-4f4482958960"
+      },
+      {
+        "alt": "Fashion",
+        "href": "/",
+        "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/3210eea1-5437-4f19-8327-8b8fa4edfc45"
+      },
+      {
+        "alt": "Fashion",
+        "href": "/",
+        "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/1e6250d4-f9d2-4185-b8a6-b0e8a8fed4a7"
+      },
+      {
+        "alt": "Fashion",
+        "href": "/",
+        "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/a8d36df6-4b96-4421-bb6c-de0fe1478e06"
+      }
+    ],
+    "description": "Discover the collections of the season",
+    "__resolveType": "deco-sites/protot/sections/Images/ImageGallery.tsx"
+  },
+  "Product Shelf - 01": {
+    "title": "Teste",
+    "products": {
+      "__resolveType": "Colecao 137 - Casacos"
+    },
+    "cardLayout": {
+      "hide": {}
+    },
+    "description": "The best selection for you",
+    "__resolveType": "deco-sites/protot/sections/Product/ProductShelf.tsx"
+  },
+  "Product Shelf - 02": {
+    "title": "What we're loving right now",
+    "layout": {
+      "headerfontSize": "Normal",
+      "headerAlignment": "left"
+    },
+    "products": {
+      "count": 8,
+      "query": "camiseta",
+      "collection": [],
+      "__resolveType": "deco-sites/std/functions/vtexProductList.ts"
+    },
+    "cardLayout": {
+      "hide": {}
+    },
+    "description": "The best selection for you",
+    "__resolveType": "deco-sites/protot/sections/Product/ProductShelf.tsx"
+  },
+  "Product Shelf - 03": {
+    "title": "What we're loving right now",
+    "layout": {
+      "headerfontSize": "Large",
+      "headerAlignment": "center"
+    },
+    "products": {
+      "count": 8,
+      "query": "camiseta",
+      "collection": [],
+      "__resolveType": "deco-sites/std/functions/vtexProductList.ts"
+    },
+    "cardLayout": {
+      "hide": {},
+      "basics": {
+        "ctaText": "View more",
+        "oldPriceSize": "Normal",
+        "contentAlignment": "Center"
+      },
+      "elementsPositions": {
+        "skuSelector": "Bottom"
+      }
+    },
+    "description": "The best selection for you",
+    "__resolveType": "deco-sites/protot/sections/Product/ProductShelf.tsx"
+  },
+  "Product Shelf - 04": {
+    "title": "What we're loving right now",
+    "layout": {
+      "headerfontSize": "Large",
+      "headerAlignment": "center"
+    },
+    "products": {
+      "count": 8,
+      "query": "camiseta",
+      "collection": [],
+      "__resolveType": "deco-sites/std/functions/vtexProductList.ts"
+    },
+    "cardLayout": {
+      "hide": {
+        "cta": true,
+        "skuSelector": true
+      },
+      "basics": {
+        "ctaText": "View more",
+        "oldPriceSize": "Normal",
+        "contentAlignment": "Center"
+      },
+      "elementsPositions": {
+        "skuSelector": "Bottom"
+      }
+    },
+    "description": "The best selection for you",
+    "__resolveType": "deco-sites/protot/sections/Product/ProductShelf.tsx"
+  },
+  "Product Shelf - 05": {
+    "title": "What we're loving right now",
+    "layout": {
+      "headerfontSize": "Large",
+      "headerAlignment": "center"
+    },
+    "products": {
+      "count": 8,
+      "query": "camiseta",
+      "collection": [],
+      "__resolveType": "deco-sites/std/functions/vtexProductList.ts"
+    },
+    "cardLayout": {
+      "hide": {
+        "cta": true,
+        "allPrices": false,
+        "skuSelector": true,
+        "installments": true,
+        "productDescription": true
+      },
+      "basics": {
+        "ctaText": "View more",
+        "oldPriceSize": "Normal",
+        "contentAlignment": "Center"
+      },
+      "elementsPositions": {
+        "skuSelector": "Bottom"
+      }
+    },
+    "description": "The best selection for you",
+    "__resolveType": "deco-sites/protot/sections/Product/ProductShelf.tsx"
+  },
+  "Product Shelf - 06": {
+    "title": "What we're loving right now",
+    "layout": {
+      "headerfontSize": "Large",
+      "headerAlignment": "center"
+    },
+    "products": {
+      "count": 8,
+      "query": "camiseta",
+      "collection": [],
+      "__resolveType": "deco-sites/std/functions/vtexProductList.ts"
+    },
+    "cardLayout": {
+      "hide": {
+        "cta": true,
+        "allPrices": true,
+        "productName": true,
+        "skuSelector": true,
+        "installments": true,
+        "productDescription": true
+      },
+      "basics": {
+        "ctaText": "View more",
+        "oldPriceSize": "Normal",
+        "contentAlignment": "Center"
+      },
+      "elementsPositions": {
+        "skuSelector": "Bottom"
+      }
+    },
+    "description": "The best selection for you",
+    "__resolveType": "deco-sites/protot/sections/Product/ProductShelf.tsx"
+  },
+  "Algolia Integration": {
+    "adminAPIKey": "72d4757e3b28da7e2b18ca1c8b96a4e3",
+    "adminApiKey": "2e33bc18d1e3405d74176853f837b434",
+    "searchAPIKey": "f48360f6586a1c440d91fcc3af63db56",
+    "__resolveType": "decohub/apps/algolia.ts",
+    "applicationId": "3MINZHT36Y"
+  },
+  "Campaign Timer - 01": {
+    "link": {
+      "href": "https://github.com/deco-cx",
+      "text": "Visit our GitHub"
+    },
+    "text": "<p>Design, develop and deliver complete experiences</p>",
+    "labels": {
+      "expired": " "
+    },
+    "layout": {
+      "textPosition": "After counter"
+    },
+    "__resolveType": "deco-sites/protot/sections/Miscellaneous/CampaignTimer.tsx"
+  },
+  "Campaign Timer - 02": {
+    "link": {
+      "href": "/",
+      "text": "View products"
+    },
+    "text": "<p>15% discount on all products!</p>",
+    "labels": {
+      "hours": "hr",
+      "expired": "Promotion expired.",
+      "minutes": "min",
+      "seconds": "sec"
+    },
+    "layout": {
+      "textPosition": "After counter"
+    },
+    "expiresAt": "2023-06-07T00:00:00.000Z",
+    "__resolveType": "deco-sites/protot/sections/Miscellaneous/CampaignTimer.tsx"
+  },
+  "Cookie Consent - 01": {
+    "text": "<p>We use cookies to personalize ads and improve your experience on the site.</p>",
+    "title": "Cookies",
+    "layout": {
+      "content": "Piled up",
+      "position": "Expanded"
+    },
+    "policy": {
+      "link": "/",
+      "text": "Find out more about privacy policy"
+    },
+    "buttons": {
+      "allowText": "Accept",
+      "cancelText": "Close"
+    },
+    "__resolveType": "deco-sites/protot/sections/Miscellaneous/CookieConsent.tsx"
+  },
+  "Cookie Consent - 02": {
+    "text": "<p>We use cookies to personalize ads and improve your experience on the site.</p>",
+    "title": "Cookies",
+    "layout": {
+      "content": "Piled up",
+      "position": "Left"
+    },
+    "policy": {
+      "link": "/",
+      "text": "Find out more about privacy policy"
+    },
+    "buttons": {
+      "allowText": "Accept",
+      "cancelText": "Close"
+    },
+    "__resolveType": "deco-sites/protot/sections/Miscellaneous/CookieConsent.tsx"
+  },
+  "Cookie Consent - 03": {
+    "text": "<p>We use cookies to personalize ads and improve your experience on the site.</p>",
+    "title": "Cookies",
+    "layout": {
+      "content": "Tiled",
+      "position": "Right"
+    },
+    "policy": {
+      "link": "/",
+      "text": "Find out more about privacy policy"
+    },
+    "buttons": {
+      "allowText": "Accept",
+      "cancelText": "Close"
+    },
+    "__resolveType": "deco-sites/protot/sections/Miscellaneous/CookieConsent.tsx"
+  },
+  "Product Detail - 01": {
+    "page": {
+      "slug": "casaco-feminino-sun",
+      "__resolveType": "deco-sites/std/loaders/vtex/intelligentSearch/productDetailsPage.ts"
+    },
+    "variant": "slider",
+    "__resolveType": "deco-sites/protot/sections/Product/ProductDetails.tsx"
+  },
+  "Category Banner - 01": {
+    "banners": [
+      {
+        "image": {
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/91102b71-4832-486a-b683-5f7b06f649af",
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/ec597b6a-dcf1-48ca-a99d-95b3c6304f96"
+        },
+        "title": "Woman",
+        "matcher": "/feminino/*",
+        "subtitle": "As"
+      }
+    ],
+    "__resolveType": "deco-sites/protot/sections/Category/CategoryBanner.tsx"
+  },
+  "Camisas mais vendidas": {
+    "sort": "price:desc",
+    "count": 4,
+    "query": "camisa",
+    "__resolveType": "deco-sites/std/functions/vtexProductList.ts"
+  },
+  "Colecao 137 - Casacos": {
+    "ids": [],
+    "count": 10,
+    "collection": "137",
+    "__resolveType": "deco-sites/std/loaders/vtex/intelligentSearch/productList.ts",
+    "hideUnavailableItems": true
+  },
+  "Colecao 139 - Camisas": {
+    "ids": [],
+    "count": 10,
+    "collection": "139",
+    "__resolveType": "deco-sites/std/loaders/vtex/intelligentSearch/productList.ts",
+    "hideUnavailableItems": true
+  },
+  "Shoppable Banner - 01": {
+    "link": {
+      "href": "/feminino",
+      "text": "Take a look"
+    },
+    "pins": [
+      {
+        "link": "/feminino",
+        "label": "Glasses",
+        "mobile": {
+          "x": 12,
+          "y": 59
+        },
+        "desktop": {
+          "x": 7,
+          "y": 60
+        }
+      },
+      {
+        "link": "/feminino",
+        "label": "Bag",
+        "mobile": {
+          "x": 30,
+          "y": 30
+        },
+        "desktop": {
+          "x": 30,
+          "y": 30
+        }
+      }
+    ],
+    "text": "Introducing our stunning Spring Clothes Collection! Step into a world of vibrant colors, fresh designs, and delightful styles that capture the essence of the season. Embrace the blooming flowers and the gentle breeze with our carefully curated selection of springtime fashion.",
+    "image": {
+      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/cc607cfa-b7b9-4f0e-b9af-579458d2fdc6",
+      "altText": "a",
+      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/39d61abb-5b29-4de8-86e4-325d21d7fdb7"
+    },
+    "title": "Spring collection",
+    "__resolveType": "deco-sites/protot/sections/Images/ShoppableBanner.tsx"
+  },
+  "Campaing Timer - Github": {
+    "link": {
+      "href": "https://github.com/deco-cx",
+      "text": "Visit our GitHub"
+    },
+    "text": "<p>Design, develop and deliver complete experiences</p>",
+    "labels": {
+      "expired": " "
+    },
+    "layout": {
+      "textPosition": "After counter"
+    },
+    "__resolveType": "deco-sites/protot/sections/Miscellaneous/CampaignTimer.tsx"
+  },
+  "pages-home-c4bcbfb771e9": {
+    "name": "Home",
+    "path": "/",
+    "sections": [
+      {
+        "font": {
+          "fonts": [
+            {
+              "family": "Poppins",
+              "variations": [
+                {
+                  "weight": "100"
+                }
+              ]
+            }
+          ],
+          "__resolveType": "website/loaders/fonts/googleFonts.ts"
+        },
+        "fonts": {
+          "fontFamily": "'Georgia'"
+        },
+        "mainColors": {
+          "primary": "#000000",
+          "base-100": "#000000",
+          "tertiary": "#553ef5",
+          "secondary": "#05f67c"
+        },
+        "buttonStyle": {
+          "--border-btn": "2px",
+          "--rounded-btn": "2rem",
+          "--btn-text-case": "normal-case",
+          "--btn-focus-scale": "0.95"
+        },
+        "__resolveType": "deco-sites/protot/sections/Theme/Theme.tsx",
+        "complementaryColors": {
+          "base": {
+            "base-200": "#292929",
+            "base-300": "#ffffff",
+            "base-content": "#ffffff"
+          },
+          "primary": {
+            "primary-focus": "#ffffff",
+            "primary-content": "#ffffff"
+          },
+          "tertiary": {
+            "tertiary-focus": "#ffffff",
+            "tertiary-content": "#ffffff"
+          },
+          "secondary": {
+            "secondary-focus": "#050505",
+            "secondary-content": "#000000"
+          }
+        }
+      },
+      {
+        "cart": {
+          "freeShippingObjectiveQuantity": 600
+        },
+        "logo": {
+          "alt": "Fashion logo by deco",
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2583/f9cc6714-fc14-4d13-bbbb-ad2209cab10e"
+        },
+        "alerts": [
+          
+        ],
+        "navItems": {
+          "__resolveType": "navbar"
+        },
+        "products": [],
+        "searchbar": {
+          "name": "q",
+          "action": "/s",
+          "loader": {
+            "data": {
+              "count": 5,
+              "highlight": true,
+              "__resolveType": "algolia/loaders/product/suggestions.ts"
+            },
+            "__resolveType": "resolved"
+          },
+          "placeholder": "What are you looking for?"
+        },
+        "suggestions": {
+          "products": [],
+          "searches": []
+        },
+        "__resolveType": "deco-sites/protot/sections/Header/Header.tsx"
+      },
+      {
+        "images": [
+          {
+            "alt": "/feminino",
+            "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2583/e50dcb8a-2f27-4ffd-9e63-da9b3979b506",
+            "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2583/283f7dcc-0f08-490a-b500-38e117bd4be1"
+          },
+          {
+            "alt": "/feminino",
+            "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2583/3a607877-de4c-4968-a14c-e49975066e16",
+            "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2583/bd0d8857-e8ea-44c7-9e57-48cb9954c411"
+          },
+          {
+            "alt": "/feminino",
+            "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2583/4c75fab7-d526-4e72-ace0-f7fb0b5efe34",
+            "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2583/e8f418bb-e158-4cab-abfe-9daa8c8d2ba5"
+          }
+        ],
+        "preload": true,
+        "__resolveType": "deco-sites/protot/sections/Images/Carousel.tsx"
+      },
+      {
+        "link": {
+          "href": "/sale",
+          "text": "Compre agora"
+        },
+        "text": "<p>Aproveite a Black Friday com a gente!</p>",
+        "labels": {
+          "expired": " "
+        },
+        "layout": {
+          "textPosition": "After counter"
+        },
+        "expiresAt": "2023-11-10T19:54:00.000Z",
+        "__resolveType": "deco-sites/protot/sections/Miscellaneous/CampaignTimer.tsx"
+      },
+      {
+        "list": [
+          {
+            "href": "/masculino",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2583/988af05a-d3a1-4af0-b466-563adb2093e8",
+            "label": "Sandálias"
+          },
+          {
+            "href": "/feminino",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2583/fe68cbe5-45f3-4698-9c90-daebb2b56c6d",
+            "label": "Pochetes"
+          },
+          {
+            "href": "/",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2583/3d56b445-272c-4ca6-a961-479355ac60e8",
+            "label": "Casacos"
+          },
+          {
+            "href": "/",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2583/99def82b-bcf8-48bf-963b-e3a0830178ef",
+            "label": "Gorro"
+          },
+          {
+            "href": "/",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2583/b52348af-5a20-4a41-b068-6968c0f5b001",
+            "label": "Camisas"
+          }
+        ],
+        "header": {},
+        "layout": {
+          "categoryCard": {
+            "textPosition": "bottom",
+            "textAlignment": "center"
+          },
+          "headerAlignment": "center"
+        },
+        "__resolveType": "deco-sites/protot/sections/Category/CategoryList.tsx"
+      },
+      {
+        "title": "Camisetas lisas",
+        "products": {
+          "props": {
+            "count": 10,
+            "collection": "141"
+          },
+          "__resolveType": "vtex/loaders/intelligentSearch/productList.ts"
+        },
+        "cardLayout": {
+          "layout": {
+            "hide": {
+              "productName": false,
+              "skuSelector": true,
+              "productDescription": false
+            },
+            "basics": {
+              "oldPriceSize": "Small",
+              "contentAlignment": "Left"
+            },
+            "onMouseOver": {
+              "card": "None",
+              "image": "Change image"
+            },
+            "elementsPositions": {
+              "skuSelector": "Top",
+              "favoriteIcon": "Top right"
+            }
+          },
+          "products": {
+            "term": "a",
+            "count": 2,
+            "__resolveType": "vtex/loaders/legacy/productList.ts"
+          },
+          "__resolveType": "deco-sites/protot/loaders/Layouts/ProductCard.tsx"
+        },
+        "__resolveType": "deco-sites/protot/sections/Product/ProductShelf.tsx"
+      },
+      {
+        "layout": {
+          "borderRadius": {
+            "mobile": "none",
+            "desktop": "none"
+          },
+          "headerAlignment": "center"
+        },
+        "banners": [
+          {
+            "alt": "Black Friday",
+            "href": "/",
+            "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2583/c053b220-124c-46d9-a7d8-1eae74d5201f",
+            "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2583/a4f7b1e7-cee7-48ec-8bbf-3ea47a7b9d0d"
+          },
+          {
+            "alt": "Couple",
+            "href": "/",
+            "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2583/401536dc-f955-494d-be2b-b24da2c5c005",
+            "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2583/2e58cbb7-2f69-41ac-8b8c-175a852900d3"
+          },
+          {
+            "alt": "Tenis",
+            "href": "/",
+            "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2583/163688fc-6953-47bf-ae78-1bedbfcb74a1",
+            "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2583/63e34139-b1e5-4561-8c0a-e253c235b839"
+          },
+          {
+            "alt": "Black friday",
+            "href": "/",
+            "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2583/fa2829cf-40e7-4380-8ef5-ad1535eb7518",
+            "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2583/bd790d4b-569c-4401-9a83-2fbde8e1dfaf"
+          }
+        ],
+        "__resolveType": "deco-sites/protot/sections/Images/ImageGallery.tsx"
+      },
+      {
+        "title": "Confira nossos Benefícios",
+        "layout": {
+          "variation": "With border",
+          "headerAlignment": "center"
+        },
+        "benefits": [
+          {
+            "icon": "Truck",
+            "label": "Frete grátis para todo o mundo",
+            "description": "Compras online sem taxas adicionais!"
+          },
+          {
+            "icon": "Phone",
+            "label": "Suporte 24/7 ",
+            "description": "Assistência 24 horas"
+          },
+          {
+            "icon": "Discount",
+            "label": "15% de desconto na primeira compra",
+            "description": "Desconto para novos clientes"
+          },
+          {
+            "icon": "ArrowsPointingOut",
+            "label": "Devoluções sem complicações",
+            "description": "Política de retorno fácil e conveniente"
+          }
+        ],
+        "__resolveType": "deco-sites/protot/sections/Content/Benefits.tsx"
+      },
+      {
+        "__resolveType": "FAQ - 02"
+      },
+      {
+        "logo": {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2583/a1b0e1fb-41aa-4c2b-b16e-50e47e45c6a9",
+          "description": "O estilo pensado para você"
+        },
+        "layout": {
+          "hide": {
+            "logo": false,
+            "mobileApps": false,
+            "newsletter": false,
+            "socialLinks": false,
+            "regionOptions": false
+          },
+          "variation": "Variation 1",
+          "backgroundColor": "Secondary"
+        },
+        "social": {
+          "items": [
+            {
+              "link": "http://deco.cx/",
+              "label": "Discord"
+            },
+            {
+              "link": "http://deco.cx/",
+              "label": "Facebook"
+            },
+            {
+              "link": "http://deco.cx/",
+              "label": "Instagram"
+            },
+            {
+              "link": "http://deco.cx/",
+              "label": "Linkedin"
+            },
+            {
+              "link": "http://deco.cx/",
+              "label": "Tiktok"
+            },
+            {
+              "link": "http://deco.cx/",
+              "label": "Twitter"
+            }
+          ],
+          "title": "Siga-nos nas redes"
+        },
+        "payments": {
+          "items": [
+            {
+              "label": "Elo"
+            },
+            {
+              "label": "Mastercard"
+            },
+            {
+              "label": "Pix"
+            },
+            {
+              "label": "Visa"
+            }
+          ],
+          "title": "Formas de pagamento"
+        },
+        "sections": [
+          {
+            "items": [
+              {
+                "href": "/quem-somos",
+                "label": "Quem somos"
+              },
+              {
+                "href": "/privacidade",
+                "label": "Privacidade e segurança"
+              },
+              {
+                "href": "/termos-de-uso",
+                "label": "Termos de uso"
+              },
+              {
+                "href": "/trabalhe-conosco",
+                "label": "Trabalhe conosco"
+              }
+            ],
+            "label": "Sobre",
+            "children": [
+              {
+                "href": "/quemsomos",
+                "label": "Quem somos"
+              },
+              {
+                "href": "/privacidadeeseguranca",
+                "label": "Privacidade e segurança"
+              },
+              {
+                "href": "/termosdeuso",
+                "label": "Termos de uso"
+              },
+              {
+                "href": "/trabalheconosco",
+                "label": "Trabalhe conosco"
+              }
+            ]
+          },
+          {
+            "items": [
+              {
+                "href": "/central-de-atendimento",
+                "label": "Central de atendimento"
+              },
+              {
+                "href": "/fale-whatsapp",
+                "label": "Fale conosco pelo Whatsapp"
+              },
+              {
+                "href": "/troca-e-devolucao",
+                "label": "Troca e devolução"
+              }
+            ],
+            "label": "Atendimento",
+            "children": [
+              {
+                "href": "/centraldeatendimento",
+                "label": "Central de atendimento"
+              },
+              {
+                "href": "/whatsapp",
+                "label": "Fale conosco pelo WhatsApp"
+              },
+              {
+                "href": "/trocaedevolucao",
+                "label": "Troca e devolução"
+              }
+            ]
+          },
+          {
+            "items": [
+              {
+                "href": "/login",
+                "label": "Login e cadastro"
+              },
+              {
+                "href": "/meus-pedidos",
+                "label": "Meus pedidos"
+              }
+            ],
+            "label": "Minha conta",
+            "children": [
+              {
+                "href": "/loginecadastro",
+                "label": "Login e cadastro"
+              },
+              {
+                "href": "/meuspedidos",
+                "label": "Meus pedidos"
+              }
+            ]
+          }
+        ],
+        "extraLinks": [
+          {
+            "href": "http://www.google.com",
+            "link": "http://www.google.com/",
+            "label": "Política de privacidade"
+          },
+          {
+            "href": "http://www.google.com",
+            "link": "http://www.google.com",
+            "label": "Termos de serviço"
+          }
+        ],
+        "mobileApps": {
+          "apple": "http://www.google.com",
+          "android": "http://www.google.com"
+        },
+        "newsletter": {
+          "form": {
+            "helpText": "<p>Ao se inscrever, você está aceitando nossa <a href=\"/\" class=\"link\">Política de Privacidade</a>.</p>"
+          },
+          "title": "Assine nossa newsletter",
+          "description": "Participe e ganhe 10% de desconto na primeira compra"
+        },
+        "backToTheTop": {
+          "text": "Voltar ao topo"
+        },
+        "__resolveType": "deco-sites/protot/sections/Footer/Footer.tsx",
+        "regionOptions": {
+          "currency": [
+            {
+              "href": "/",
+              "label": "Brasil BRL"
+            },
+            {
+              "href": "/",
+              "label": "United Stated USD"
+            }
+          ],
+          "language": [
+            {
+              "href": "/",
+              "label": "PT"
+            },
+            {
+              "href": "/",
+              "label": "EN"
+            }
+          ]
+        }
+      },
+      {
+        "__resolveType": "website/sections/Seo/Seo.tsx"
+      }
+    ],
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "Product Card Layout - 01": {
+    "layout": {
+      "hide": {},
+      "basics": {
+        "oldPriceSize": "Small",
+        "contentAlignment": "Left"
+      },
+      "onMouseOver": {
+        "card": "None",
+        "image": "Change image"
+      },
+      "elementsPositions": {
+        "skuSelector": "Top",
+        "favoriteIcon": "Top right"
+      }
+    },
+    "products": {
+      "term": "a",
+      "count": 2,
+      "__resolveType": "vtex/loaders/legacy/productList.ts"
+    },
+    "__resolveType": "deco-sites/protot/loaders/Layouts/ProductCard.tsx"
+  },
+  "pages-search-2f446eadce44": {
+    "name": "Search",
+    "path": "/s",
+    "sections": [
+      {
+        "type": "website",
+        "__resolveType": "website/sections/Seo/Seo.tsx",
+        "titleTemplate": "%s | Deco.cx",
+        "descriptionTemplate": "%s | Deco.cx"
+      },
+      {
+        "__resolveType": "Header - 01"
+      },
+      {
+        "page": {
+          "facets": [
+            {
+              "name": "Cor",
+              "groupFacet": true
+            },
+            {
+              "name": "Tamanho"
+            }
+          ],
+          "highlight": true,
+          "hitsPerPage": 12,
+          "__resolveType": "algolia/loaders/product/listingPage.ts",
+          "sortFacetValuesBy": "count"
+        },
+        "layout": {
+          "columns": {
+            "mobile": 2,
+            "desktop": 4
+          },
+          "variant": "aside"
+        },
+        "__resolveType": "deco-sites/protot/sections/Product/SearchResult.tsx"
+      },
+      {
+        "__resolveType": "Footer - 01"
+      }
+    ],
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "pages-offline-b9c52de8c7b3": {
+    "name": "Offline",
+    "path": "/offline",
+    "sections": [
+      {
+        "__resolveType": "Header - 01"
+      },
+      {
+        "title": "Oh no! You are offline!",
+        "products": {
+          "ids": [],
+          "sort": "price:desc",
+          "count": 4,
+          "collection": "139",
+          "__resolveType": "vtex/loaders/intelligentSearch/productList.ts"
+        },
+        "cardLayout": {
+          "__resolveType": "Product Card Layout - 01"
+        },
+        "description": "Maybe take some time to explore",
+        "__resolveType": "deco-sites/protot/sections/Product/ProductShelf.tsx"
+      },
+      {
+        "__resolveType": "Footer - 01"
+      }
+    ],
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "pages-category-7493d4326022": {
+    "name": "Category",
+    "path": "/*",
+    "sections": [
+      {
+        "__resolveType": "Header - 01"
+      },
+      {
+        "page": {
+          "sort": "",
+          "count": 12,
+          "fuzzy": "automatic",
+          "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
+          "selectedFacets": []
+        },
+        "cardLayout": {
+          "__resolveType": "Product Card Layout - 01"
+        },
+        "__resolveType": "deco-sites/protot/sections/Product/SearchResult.tsx"
+      },
+      {
+        "__resolveType": "Footer - 01"
+      },
+      {
+        "jsonLD": {
+          "sort": "price:desc",
+          "count": 12,
+          "fuzzy": "automatic",
+          "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
+          "selectedFacets": []
+        },
+        "__resolveType": "commerce/sections/Seo/SeoPLP.tsx"
+      }
+    ],
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "pages-productpage-ce4850591828": {
+    "name": "Product Page",
+    "path": "/:slug/p",
+    "sections": [
+      {
+        "jsonLD": {
+          "slug": {
+            "param": "slug",
+            "__resolveType": "website/functions/requestToParam.ts"
+          },
+          "__resolveType": "vtex/loaders/intelligentSearch/productDetailsPage.ts"
+        },
+        "jsonLDs": [
+          {}
+        ],
+        "__resolveType": "commerce/sections/Seo/SeoPDP.tsx"
+      },
+      {
+        "__resolveType": "Header - 01"
+      },
+      {
+        "page": {
+          "slug": {
+            "param": "slug",
+            "__resolveType": "website/functions/requestToParam.ts"
+          },
+          "__resolveType": "vtex/loaders/intelligentSearch/productDetailsPage.ts"
+        },
+        "variant": "slider",
+        "__resolveType": "deco-sites/protot/sections/Product/ProductDetails.tsx"
+      },
+      {
+        "title": "You may also like",
+        "products": {
+          "slug": {
+            "param": "slug",
+            "__resolveType": "website/functions/requestToParam.ts"
+          },
+          "count": 4,
+          "crossSelling": "whosawalsosaw",
+          "__resolveType": "vtex/loaders/legacy/relatedProductsLoader.ts"
+        },
+        "cardLayout": {
+          "__resolveType": "Product Card Layout - 01"
+        },
+        "__resolveType": "deco-sites/protot/sections/Product/ProductShelf.tsx"
+      },
+      {
+        "__resolveType": "Footer - 01"
+      }
+    ],
+    "__resolveType": "website/pages/Page.tsx"
+  }
+}

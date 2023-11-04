@@ -140,7 +140,7 @@ function Banner(
       href={props.href}
       class={`overflow-hidden ${radiusDesktop} ${radiusMobile}`}
     >
-      <Picture>
+      {/* <Picture>
         <Source
           width={190}
           height={190}
@@ -148,8 +148,8 @@ function Banner(
           src={srcMobile}
         />
         <Source
-          width={640}
-          height={420}
+          width={600}
+          height={10}
           media="(min-width: 768px)"
           src={srcDesktop || srcMobile}
         />
@@ -160,7 +160,7 @@ function Banner(
           decoding="async"
           loading="lazy"
         />
-      </Picture>
+      </Picture> */}
     </a>
   );
 }

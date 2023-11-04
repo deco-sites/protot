@@ -98,22 +98,22 @@ function BannerItem({ image, lcp }: { image: Banner; lcp?: boolean }) {
     <a
       href={action?.href ?? "#"}
       aria-label={action?.label}
-      class="relative h-[600px] overflow-y-hidden w-full"
+      class="relative h-[350px] overflow-y-hidden w-full"
     >
       <Picture preload={lcp}>
         <Source
           media="(max-width: 767px)"
           fetchPriority={lcp ? "high" : "auto"}
           src={mobile}
-          width={360}
-          height={600}
+          width={340}
+          height={500}
         />
         <Source
           media="(min-width: 768px)"
           fetchPriority={lcp ? "high" : "auto"}
           src={desktop}
-          width={1440}
-          height={600}
+          width={1340}
+          height={500}
         />
         <img
           class="object-cover w-full h-full"

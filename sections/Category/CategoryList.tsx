@@ -99,7 +99,7 @@ function CategoryList(props: Props) {
           >
             <a
               href={href}
-              class="flex flex-col gap-4 lg:w-[280px] w-40 lg:h-auto"
+              class="flex flex-col gap-4 lg:w-[210px] w-30 lg:h-auto"
             >
               {layout.categoryCard?.textPosition === "top" &&
                 (
@@ -114,11 +114,11 @@ function CategoryList(props: Props) {
                 (
                   <figure>
                     <Image
-                      class="card w-full"
+                      class="card w-full rounded-full border-solid"
                       src={image}
                       alt={description || label || tag}
-                      width={160}
-                      height={195}
+                      width={80}
+                      height={80}
                       loading="lazy"
                     />
                   </figure>
